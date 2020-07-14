@@ -43,6 +43,7 @@ try{
   $sth->bindValue(':lv',    DEFAULT_LV,    PDO::PARAM_INT);
   $sth->bindValue(':exp',   DEFAULT_EXP,   PDO::PARAM_INT);
   $sth->bindValue(':money', DEFAULT_MONEY, PDO::PARAM_INT);
+  $sth->bindValue(':chara', DEFAULT_CHARA, PDO::PARAM_ARRAY;
 
   // 実行
   $sth->execute();
